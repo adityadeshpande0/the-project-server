@@ -1,0 +1,41 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Node.js web app",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityadeshpande0/the-project-server.git"
+  },
+  "keywords": [
+    "node",
+    "typescript",
+    "express"
+  ],
+  "author": "adityadeshpande1@outlook.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adityadeshpande0/the-project-server/issues"
+  },
+  "homepage": "https://github.com/adityadeshpande0/the-project-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.13.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/mongoose": "^5.11.96",
+    "@types/node": "^22.13.17",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
